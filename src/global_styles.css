@@ -1,0 +1,67 @@
+html {
+	scroll-behavior : smooth;
+}
+
+#nprogress .bar {
+	height     : 4px;
+	z-index    : 1500;
+	background : #F7931E;
+}
+
+#nprogress .peg {
+	box-shadow: 0 0 15px #F7931E, 0 0 10px #F7931E;
+}
+
+#nprogress .spinner {
+	z-index : 1500;
+	width   : 20px;
+	height  : 20px;
+}
+
+#nprogress .spinner-icon {
+	border-top-color  : #F7931E;
+	border-left-color : #F7931E;
+	z-index           : 1500;
+}
+
+#error-container {
+	width            : 100vw;
+	height           : 100vh;
+	background-color : #dedede;
+}
+
+.button-404 {
+	border-radius : 2rem !important;
+	color         : #eae3e3 !important;
+}
+::-webkit-scrollbar {
+    width: 5px;
+}
+::-webkit-scrollbar-thumb {
+    background:  #F7931E!important;
+    border-radius: 15px;
+}
+::-webkit-scrollbar-thumb, ::-webkit-scrollbar-thumb:hover {
+    background:  #F7931E;
+}
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 10px #6c757d;
+    border-radius: 15px;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+  
+}
+
+.MuiButton-contained.Mui-disabled {
+	color: #616161;
+	border: 1px solid #E6E6E6;
+	background-color: #e6e6e6!important;
+}
+
+.MuiPaper-rounded {
+    border-radius: 8px !important;
+}
