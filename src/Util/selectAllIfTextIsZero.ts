@@ -1,7 +1,7 @@
 /**
  * Selects all the text when an input is focused only in its value is "0"
  * 
- * @author Yael Mártin A. Alcalá León <yael.alcalla@gmail.com>
+ * @author Montserrat Delgado Alvarez <mdanatg@gmail.com>
  * @param event
  */
 const selectAllIfTextIsZero = (event: React.FocusEvent<HTMLInputElement>): void => {

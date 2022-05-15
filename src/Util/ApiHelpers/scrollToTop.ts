@@ -1,7 +1,7 @@
 /**
  * Scrolls to the top of a page, in a smoth way
  * 
- * @author Yael Mártin A. Alcalá León <yael.alcalla@gmail.com>
+ * @author Montserrat Delgado Alvarez <mdanatg@gmail.com>
  */
 const scrollToTop = () => {
 	const distanceToTop: number = document.documentElement.scrollTop || document.body.scrollTop;

@@ -1,7 +1,7 @@
 /**
  * General SvgIcon props definition
  * 
- * @author Yael Mártin A. Alcalá León <yael.alcalla@gmail.com>
+ * @author Montserrat Delgado Alvarez <mdanatg@gmail.com>
  */
 export default interface SvgIcon {
 	className?: string;

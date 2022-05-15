@@ -3,7 +3,7 @@ import qs from "qs";
 /**
  * Get params with window global and parse them with qs
  * 
- * @author Yael Mártin A. Alcalá León <yael.alcalla@gmail.com>
+ * @author Montserrat Delgado Alvarez <mdanatg@gmail.com>
  * @returns query string params in json
  * 
  */

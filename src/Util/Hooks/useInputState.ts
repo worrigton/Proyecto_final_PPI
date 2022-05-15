@@ -8,7 +8,7 @@ type InputChange = (event: React.ChangeEvent<HTMLInputElement>) => void;
 /**
  * Creates a state for a controlled input.
  * 
- * @author Yael Mártin A. Alcalá León <yael.alcalla@gmail.com>
+ * @author Montserrat Delgado Alvarez <mdanatg@gmail.com>
  * @param initialValue Initial value for the input state
  */
 const useInputState = (initialValue: string = ""): [string, InputChange] => {

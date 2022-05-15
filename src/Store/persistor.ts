@@ -4,7 +4,7 @@ const logError: (err: Error) => void = err => console.error("[persistor.js] An e
 /**
  * Loads the global redux state from the localStorage
  * 
- * @author Yael Mártin A. Alcalá León <yael.alcalla@gmail.com>
+ * @author Montserrat Delgado Alvarez <mdanatg@gmail.com>
  */
 export const loadState = (): string | undefined => {
 	try {
@@ -21,7 +21,7 @@ export const loadState = (): string | undefined => {
 /**
  * Saves the state in the localStorage to persis through all user activity.
  * 
- * @author Yael Mártin A. Alcalá León <yael.alcalla@gmail.com>
+ * @author Montserrat Delgado Alvarez <mdanatg@gmail.com>
  * @param state State to be saved in the localStorage
  */
 export const saveState = <T>(state: T): void => {

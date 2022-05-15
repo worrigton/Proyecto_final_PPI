@@ -2,7 +2,7 @@
  * Opens a modal to select an image file, when an image is selected its blob is passed
  * to the callback function
  * 
- * @author Yael Mártin A. Alcalá León <yael.alcalla@gmail.com>
+ * @author Montserrat Delgado Alvarez <mdanatg@gmail.com>
  * @param callback
  * @example
  * const uploader = uploadFile(file => console.log(file));

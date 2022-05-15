@@ -1,7 +1,7 @@
 /**
  * Generates a new object composed by the selected properties defined in the original object
  * 
- * @author Yael Mártin A. Alcalá León <yael.alcalla@gmail.com>
+ * @author Montserrat Delgado Alvarez <mdanatg@gmail.com>
  * @param obj
  * @param keys
  */

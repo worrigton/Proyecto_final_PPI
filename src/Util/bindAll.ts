@@ -3,7 +3,7 @@ import { bindActionCreators, Dispatch } from "redux";
 /**
  * Binds all actions to the dispatch and uncapitalize them to use in the component props
  * 
- * @author Yael Mártin A. Alcalá León <yael.alcalla@gmail.com>
+ * @author Montserrat Delgado Alvarez <mdanatg@gmail.com>
  * @param actions 
  * @example
  * // Returns dispatch => ({ alertActions : bindActionCreators(AlertActions, dispatch) });

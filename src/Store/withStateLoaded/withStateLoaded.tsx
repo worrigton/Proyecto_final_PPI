@@ -10,7 +10,7 @@ type ReduxConnect = <T = {}>(mapStateToProps: MapStateToProps, mapDispatchToProp
  * Works just like react-redux connect higher order function, but this only renders
  * the component if the global redux state, has the property "stateLoaded" set to true
  * 
- * @author Yael Mártin A. Alcalá León <yael.alcalla@gmail.com>
+ * @author Montserrat Delgado Alvarez <mdanatg@gmail.com>
  * @param mapStateToProps - maps the state to the props
  * @param mapDispatchToProps - maps the dispatch to the props
  */

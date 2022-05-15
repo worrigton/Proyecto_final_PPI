@@ -11,7 +11,7 @@ import {
  * We need this behaviour with Nextjs, because redux will not be fully loaded on the server,
  * this implementation helps the developer identify if the redux state is loaded through STATE_LOADED type
  * 
- * @author Yael Mártin A. Alcalá León <yael.alcalla@gmail.com>
+ * @author Montserrat Delgado Alvarez <mdanatg@gmail.com>
  * @param reducers Object containing all reducers to be combined.
  */
 const combineReducers = <T> (reducers: T): Reducer => {

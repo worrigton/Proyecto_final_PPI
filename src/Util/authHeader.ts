@@ -5,7 +5,7 @@ type UserType = "admin" | "customer" | "provider" | "employee";
 /** 
  * Creates an Authorization header for http request with a user specif token
  * 
- * @author Yael Mártin A. Alcalá León <yael.alcalla@gmail.com>
+ * @author Montserrat Delgado Alvarez <mdanatg@gmail.com>
  * @param type UserType
 */
 const authHeader = (type: UserType) => {

@@ -10,7 +10,7 @@ interface DebouncedEntity {
  * Creates a debouncedEntity function wich, when ever is called, it's going to
  * delay the callback to control its execution rate
  * 
- * @author Yael Mártin A. Alcalá León <yael.alcalla@gmail.com>
+ * @author Montserrat Delgado Alvarez <mdanatg@gmail.com>
  * @param callback callback function that will be controlled by the debounce
  * @param delay time to delay the callback each time the debouncedEntity is called
  * @returns debouncedEntity

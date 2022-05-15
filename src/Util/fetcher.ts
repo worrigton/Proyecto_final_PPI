@@ -3,7 +3,7 @@ import fetch from "isomorphic-unfetch";
 /**
  * Makes a isomorphic-unfetch request and returns a json object if succeeded, else a false
  * 
- * @author Yael Mártin A. Alcalá León <yael.alcalla@gmail.com>
+ * @author Montserrat Delgado Alvarez <mdanatg@gmail.com>
  * @param url
  * @param options
  */

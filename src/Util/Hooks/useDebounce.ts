@@ -17,7 +17,7 @@ type DebounceHook = (callback: (...args: any[]) => void, delay: number, deps: an
  * Creates a debouncedEntity function mapped to an array of dependencies and a debounce
  * cancelation controlled by react
  * 
- * @author Yael Mártin A. Alcalá León <yael.alcalla@gmail.com>
+ * @author Montserrat Delgado Alvarez <mdanatg@gmail.com>
  * @param callback callback function that will be controlled by the debounce
  * @param delay time to delay the callback each time the debouncedEntity is called
  * @param deps array of dependencies
