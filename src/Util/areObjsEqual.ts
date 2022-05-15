@@ -1,7 +1,7 @@
 /**
  * Compare if two objects have the same keys with the same values
  * this only works for 1 layer no sub objects
- * @author Yael Mártin A. Alcalá León <yael.alcalla@gmail.com>
+ * @author Montserrat Delgado Alvarez <mdanatg@gmail.com>
  * @param obj1
  * @param obj2
  * @example

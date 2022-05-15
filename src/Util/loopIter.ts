@@ -1,7 +1,7 @@
 /**
  * Loops through an iterator in a circular way
  * 
- * @author Yael Mártin A. Alcalá León <yael.alcalla@gmail.com>
+ * @author Montserrat Delgado Alvarez <mdanatg@gmail.com>
  * @param iter
  * @example
  * const looping = loopIter([1, 2, 3]);

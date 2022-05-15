@@ -5,7 +5,7 @@ type UpdateStateFn = (newState: object) => void;
 /**
  * Creates an object state for Function Components
  * 
- * @author Yael Mártin A. Alcalá León <yael.alcalla@gmail.com>
+ * @author Montserrat Delgado Alvarez <mdanatg@gmail.com>
  * @param defaultValue Initial value for the object state
  */
 const useObjState = (defaultValue: object = {}): [object, UpdateStateFn] => {

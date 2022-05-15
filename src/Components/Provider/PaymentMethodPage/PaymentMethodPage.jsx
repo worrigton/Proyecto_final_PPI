@@ -140,7 +140,7 @@ const PaymentMethodPage = ({ provider, membership }) => {
 					>
 						<FormControl className={classes.formControl}>
 							<Typography type="body2">
-								Ciclo de facturación actual: 30 de Julio del 2020
+								Ciclo de facturación actual:
 							</Typography>
 							<div className={classes.gridPadding} />
 							<Grid

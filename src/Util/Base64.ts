@@ -1,7 +1,7 @@
 /**
  * A set of functions to work with base64 encoding
  * 
- * @author Yael Mártin A. Alcalá León <yael.alcalla@gmail.com>
+ * @author Montserrat Delgado Alvarez <mdanatg@gmail.com>
  */
 class Base64 {
 	/** Encodes a string to base64 */
@@ -18,7 +18,7 @@ class Base64 {
 	 * Converts a Blob file into a base64 string, after the FileReader resolvers
 	 * it's going to fire the callback with the resulting string
 	 * 
-	 * @author Yael Mártin A. Alcalá León <yael.alcalla@gmail.com>
+	 * @author Montserrat Delgado Alvarez <mdanatg@gmail.com>
 	 * @param file - Blob file to be converted
 	 * @param callback - A callback function that will execute with te result as its param
 	 */

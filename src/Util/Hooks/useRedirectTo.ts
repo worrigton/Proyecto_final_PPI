@@ -7,7 +7,7 @@ type RedirectFnWithoutParams = (...args: any[]) => any;
 /**
  * Creates a memoized function that takes a string and redirects with router (router.push)
  * 
- * @author Yael Mártin A. Alcalá León <yael.alcalla@gmail.com>
+ * @author Montserrat Delgado Alvarez <mdanatg@gmail.com>
  * @example
  * 
  * const UsageExample: React.FC = () => {

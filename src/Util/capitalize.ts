@@ -1,6 +1,6 @@
 /**
  * Capitalizes a string
- * @author Yael Mártin A. Alcalá León <yael.alcalla@gmail.com>
+ * @author Montserrat Delgado Alvarez <mdanatg@gmail.com>
  * @param str
  */
 const capitalize = (str: string) => str[0].toUpperCase() + (str.substring(1, str.length) || "").toLowerCase();

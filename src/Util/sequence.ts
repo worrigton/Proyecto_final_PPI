@@ -1,7 +1,7 @@
 /**
  * Execute a bunch of functions in order
  * 
- * @author Yael Mártin A. Alcalá León <yael.alcalla@gmail.com>
+ * @author Montserrat Delgado Alvarez <mdanatg@gmail.com>
  * @param fns
  * @example
  * const log      = a => () => console.log(a);

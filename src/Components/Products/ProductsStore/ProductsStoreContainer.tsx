@@ -35,7 +35,7 @@ interface QueryStringParams {
 /**
  * Reads data from the query string, merge that with redux global state and update redux
  * 
- * @author Yael Mártin A. Alcalá León <yael.alcalla@gmail.com>
+ * @author Montserrat Delgado Alvarez <mdanatg@gmail.com>
  * @param productsReducer Data from redux
  */
 const setDefaultQueryString = (productActions): void => {
@@ -75,7 +75,7 @@ const setDefaultQueryString = (productActions): void => {
  * Get products pagination data from server, update redux to server response and
  * update the queryString
  * 
- * @author Yael Mártin A. Alcalá León <yael.alcalla@gmail.com>
+ * @author Montserrat Delgado Alvarez <mdanatg@gmail.com>
  * @param productsReducer Data from redux
  */
 const getDataFromServer = async (productsReducer: ProductsReducer, productActions, qsUpdater) => {

@@ -1,7 +1,7 @@
 /**
  * Get params with window global and parse them with qs
  *
- * @author Angel Castañeda <yael.alcalla@gmail.com>
+ * @author Angel Castañeda <mdanatg@gmail.com>
  * @returns query string token
  *
  */

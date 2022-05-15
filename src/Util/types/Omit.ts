@@ -1,7 +1,7 @@
 /**
  * Help us remove an element of an interface by extending it
  * 
- * @author Yael Mártin A. Alcalá León <yael.alcalla@gmail.com>
+ * @author Montserrat Delgado Alvarez <mdanatg@gmail.com>
  * @example
  * interface UserData {
  *   name  : string;
