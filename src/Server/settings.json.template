@@ -1,0 +1,57 @@
+{
+	"settings" : {
+		"server_url" : "http://localhost:3000",
+		"purchasing" : {
+			"disable_average_cost_calculation" : false
+		}
+	},
+	"admin" : {
+		"username"     : "root",
+		"password"     : "root",
+		"email"        : "root@gmail.com",
+		"employeeInfo" : {
+			"first_name" : "pepe",
+			"last_name"  : "chuy"
+		}
+	},
+	"database" : {
+		"host"     : "localhost",
+		"port"     : 3306,
+		"user"     : "root",
+		"password" : "root",
+		"database" : "zoko_db",
+		"charset"  : "utf8",
+		"pooling" : {
+			"minimum" : 1, 
+			"maximum" : 100
+		},
+		"connectionTimeout" : 10000
+	},	
+	"security" : {
+		"jwt_key"    : "zoko_key_2020",
+		"token_life" : 30,
+		"ssl" : {
+			"key_file"  : "/home/ssl/cert.key",
+			"cert_file" : "/home/ssl/cert.crt",
+			"enable"    : false
+		},
+		"disable_session_control" : false
+	},
+	"mail": {
+		"user"             : "contacto@email.com",
+		"pass"             : "123456789",
+		"SENDGRID_API_KEY" : "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"
+	},
+	"debug" : true,
+	"stripe" : {
+		"mode"        : "sandbox",
+		"live" : {
+			"public_key"  : "",
+			"private_key" : ""
+		},
+		"sandbox" : {
+			"public_key"  : "",
+			"private_key" : ""
+		}
+	}
+}
