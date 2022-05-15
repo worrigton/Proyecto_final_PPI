@@ -3,7 +3,7 @@ const nodemailer = require("../mailer_service.js");
 export const requestChangePasswordEmail = async ({ to, html, subject }) => {
 	try {
 		const mailOptions = {
-			from : "Zoko <info@mailer.zoko.com>", // sender address
+			from : "<info@mailer.montse.com>", // sender address
 			to,
 			html,
 			subject, // Subject line

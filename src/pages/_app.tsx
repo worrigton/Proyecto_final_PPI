@@ -70,7 +70,7 @@ const CustomApp = ({ Component, pageProps }) => {
 	return (
 		<>
 			<Head>
-				<title>Justo lo que buscabas.</title>
+				<title>ZoKo - Justo lo que buscabas.</title>
 			</Head>
 
 			<ThemeProvider theme={theme}>

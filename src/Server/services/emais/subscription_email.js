@@ -3,7 +3,7 @@ const nodemailer = require("../mailer_service.js");
 export const sendMailSubscription = async ({ html, to, subject }) => {
 	try {
 		const mailOptions = {
-			from : "Zoko <info@mailer.zoko.mx>", // sender address
+			from : "info@mailer.montse.mx>", // sender address
 			to,
 			html,
 			subject, // Subject line
@@ -28,7 +28,7 @@ export const sendMailSubscription = async ({ html, to, subject }) => {
 export const sentMailPaymentsNotificacion = async ({ to, html, subject }) => {
 	try {
 		const mailOptions = {
-			from : "Zoko <info@mailer.zoko.mx>", // sender address
+			from : "<info@mailer.montse.mx>", // sender address
 			to,
 			html,
 			subject, // Subject line
