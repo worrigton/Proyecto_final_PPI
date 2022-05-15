@@ -30,7 +30,7 @@ function Error() {
 				alignItems="center"
 			>
 				<Clicker onClick={toHome}>
-					<img src={logo} alt="logo" />
+					<img src={logo} alt="zoko's logo" />
 				</Clicker>
 				<Box m={2}>
 					<Typography type="title" fontWeight="bold">404</Typography>
