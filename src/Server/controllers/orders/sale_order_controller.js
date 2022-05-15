@@ -25,7 +25,7 @@ const EXEC_PATH = process.cwd().replace(/[\\]+/ig, "/");
  * Stores an image in the file system before call function for resizing a original image
  * and saves the full path in the database's product register by the given ID.
  *
- * @author  Cesar Augusto Herrera de la Torre.
+ * @author  Montserrat Delgado Alvarez
  * @version 0.10.0
  * @since   0.10.0
  *
@@ -84,7 +84,7 @@ const addFile = async (fileBase64, randomUuid, saleOrderId, transacting = undefi
 /**
  * Returns a list of products details with pagination information from the database.
  *
- * @author  Cesar A. Herrera de la T.
+ * @author  Montserrat Delgado Alvarez
  * @version 0.10.0
  * @since   0.10.0
  *

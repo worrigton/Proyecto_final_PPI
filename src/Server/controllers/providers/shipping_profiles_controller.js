@@ -9,7 +9,7 @@ import ShippingProfilesModel from "~/Server/database/models/providers/shipping_p
 /**
  * Inserts a new Billing register into the database.
  *
- * @author  Cesar A. Herrera de la T.
+ * @author  Montserrat Delgado Alvarez
  * @version 0.10.0
  * @since   0.10.0
  * @param {{

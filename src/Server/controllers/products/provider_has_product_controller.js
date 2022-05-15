@@ -73,7 +73,7 @@ const deleteVolumenProfiles = async (body, transacting = null) => {
 /**
  * This function links a product to a supplier
  *
- * @author  Cesar A. Herrera de la T.
+ * @author  Montserrat Delgado Alvarez
  * @version 0.10.0
  * @since   0.10.0
  *
@@ -146,7 +146,7 @@ const addProduct = async (body, transacting = undefined) => {
 /**
  * This function edit links a product to a supplier
  *
- * @author  Cesar A. Herrera de la T.
+ * @author  Montserrat Delgado Alvarez
  * @version 0.10.0
  * @since   0.10.0
  *
@@ -187,7 +187,7 @@ const editProduct = async (body, transacting = undefined) => {
 /**
  * This function registers the configuration of a product to be offered by a supplier
  *
- * @author  Cesar A. Herrera de la T.
+ * @author  Montserrat Delgado Alvarez
  * @version 0.10.0
  * @since   0.10.0
  *
@@ -248,7 +248,7 @@ const configProduct = async (body, transacting = undefined) => {
 /**
  * This function edit information a bratch of product to be offered by a supplier
  *
- * @author  Cesar A. Herrera de la T.
+ * @author  Montserrat Delgado Alvarez
  * @version 0.10.0
  * @since   0.10.0
  *
@@ -303,7 +303,7 @@ const batchProductEditing = async (body, transacting) => {
 /**
  * This function active all varieties of product to a supplier
  *
- * @author  Cesar A. Herrera de la T.
+ * @author  Montserrat Delgado Alvarez
  * @version 0.10.0
  * @since   0.10.0
  *

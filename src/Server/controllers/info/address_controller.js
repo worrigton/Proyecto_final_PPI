@@ -8,7 +8,7 @@ import AddressModel from "~/Server/database/models/info/address";
 /**
  * Inserts a new Address register into the database.
  *
- * @author  Cesar A. Herrera de la T.
+ * @author  Montserrat Delgado Alvarez
  * @version 0.10.0
  * @since   0.10.0
  * @param {{
@@ -59,7 +59,7 @@ async function create(body, transacting = undefined) {
  * Updates a specific Provider register which already
  * exists into the database by the given ID.
  *
- * @author  Cesar A. Herrera de la T.
+ * @author  Montserrat Delgado Alvarez
  * @version 0.10.0
  * @since   0.10.0
  *

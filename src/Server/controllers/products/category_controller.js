@@ -9,7 +9,7 @@ import CategoryModel from "~/Server/database/models/products/category";
 /**
  * Inserts a new category register into the database.
  *
- * @author  Cesar A. Herrera de la T.
+ * @author  Montserrat Delgado Alvarez
  * @version 0.10.0
  * @since   0.10.0
  * @param {{
@@ -42,7 +42,7 @@ async function addCategory(body, transacting = undefined) {
 /**
  * Returns a list of categorys with pagination information from the database.
  *
- * @author  Cesar A. Herrera de la T.
+ * @author  Montserrat Delgado Alvarez
  * @version 0.10.0
  * @since   0.10.0
  *

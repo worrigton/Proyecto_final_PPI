@@ -34,7 +34,7 @@ const updateFlagsNull = async (customerId, transacting = undefined) => {
 /**
  * Inserts a new Billing register into the database.
  *
- * @author  Cesar A. Herrera de la T.
+ * @author  Montserrat Delgado Alvarez
  * @version 0.10.0
  * @since   0.10.0
  * @param {{

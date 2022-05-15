@@ -102,7 +102,7 @@ function updateRegionsToProvider(ProviderId, regions, transacting = null) {
 /**
  * Inserts a new provider register into the database.
  *
- * @author  Cesar A. Herrera de la T.
+ * @author  Montserrat Delgado Alvarez
  * @version 0.10.0
  * @since   0.10.0
  * @param {{
@@ -168,7 +168,7 @@ const create = async (body, transacting) => {
  * Updates a specific Provider register which already
  * exists into the database by the given ID.
  *
- * @author  Cesar A. Herrera de la T.
+ * @author  Montserrat Delgado Alvarez
  * @version 0.10.0
  * @since   0.10.0
  *
@@ -241,7 +241,7 @@ async function update(body, transacting = undefined) {
 /**
  * Returns a list of providers with pagination information from the database.
  *
- * @author  Cesar A. Herrera de la T.
+ * @author  Montserrat Delgado Alvarez
  * @version 0.10.0
  * @since   0.10.0
  *
@@ -441,7 +441,7 @@ const getPage = async (query) => {
 /**
  * Gets from the database a provider register according to the given ID.
  *
- * @author  Cesar A. Herrera de la T.
+ * @author  Montserrat Delgado Alvarez
  * @version 0.10.0
  * @since   0.10.0
  *
