@@ -5,7 +5,7 @@ import CityModel from "~/Server/database/models/info/city";
 /**
  * Returns a list of cities with pagination information from the database.
  *
- * @author  Cesar A. Herrera de la T.
+ * @author  Montserrat Delgado Alvarez
  * @version 0.10.0
  * @since   0.10.0
  *

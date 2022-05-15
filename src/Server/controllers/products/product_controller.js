@@ -24,7 +24,7 @@ const IMAGE_SIZES     = [ "xs", "sm", "md", "lg"];
 /**
  * Inserts a new product register into the database.
  *
- * @author  Cesar A. Herrera de la T.
+ * @author  Montserrat Delgado Alvarez
  * @version 0.10.0
  * @since   0.10.0
  * @param {{
@@ -216,7 +216,7 @@ const updateFilesLinkToProduct = async (productDetailsId, file_ids, transacting 
 /**
  * Inserts a new product register into the database or register a new change history.
  *
- * @author  Cesar A. Herrera de la T.
+ * @author  Montserrat Delgado Alvarez
  * @version 0.10.0
  * @since   0.10.0
  * @param {{
@@ -271,7 +271,7 @@ const addProductDetails = async (body, transacting = undefined) => {
  * exists into the database by the given ID.
  *
  *
- * @author  Cesar A. Herrera de la T.
+ * @author  Montserrat Delgado Alvarez
  * @version 0.10.0
  * @since   0.10.0
  *
@@ -335,7 +335,7 @@ const updateProductDetails = async (id, body, transacting = undefined) => {
 /**
  * Return filePath in the correct format
  *
- * @author  Cesar A. Herrera de la T.
+ * @author  Montserrat Delgado Alvarez
  * @version 0.10.0
  * @since   0.10.0
  *
@@ -353,7 +353,7 @@ const parseImagePath = async (filePath, size) => {
 /**
  * Gets from the database a price list register according to the given ID.
  *
- * @author  Cesar A. Herrera de la T.
+ * @author  Montserrat Delgado Alvarez
  * @version 0.10.0
  * @since   0.10.0
  *
@@ -389,7 +389,7 @@ const getImageProduct = async (body) => {
 /**
  * Returns a list of products details with pagination information from the database.
  *
- * @author  Cesar A. Herrera de la T.
+ * @author  Montserrat Delgado Alvarez
  * @version 0.10.0
  * @since   0.10.0
  *
@@ -977,7 +977,7 @@ const getProductsCollection = async (productDetailsId, providerId, stateId) => {
 /**
  * Gets from the database a product details register according to the given ID.
  *
- * @author  Cesar A. Herrera de la T.
+ * @author  Montserrat Delgado Alvarez
  * @version 0.10.0
  * @since   0.10.0
  *

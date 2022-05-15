@@ -9,7 +9,7 @@ import FeatureModel from "~/Server/database/models/products/feature";
 /**
  * Inserts a new feature register into the database.
  *
- * @author  Cesar A. Herrera de la T.
+ * @author  Montserrat Delgado Alvarez
  * @version 0.10.0
  * @since   0.10.0
  * @param {{
@@ -37,7 +37,7 @@ const addFeature = async (body, transacting) => {
 /**
  * Returns a list of features with pagination information from the database.
  *
- * @author  Cesar A. Herrera de la T.
+ * @author  Montserrat Delgado Alvarez
  * @version 0.10.0
  * @since   0.10.0
  *

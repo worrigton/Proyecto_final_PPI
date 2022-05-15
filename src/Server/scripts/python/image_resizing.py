@@ -1,6 +1,6 @@
 """For an input image generates n scaled outputs of the input image.
 
-Author:  Cesar A. Herrera de la T.
+Author:  Montserrat Delgado Alvarez
 Version: 0.10.0
 
 Generated images will have a '_suffix' (e.g. _s or _xs) depending on the arguments given to this script

@@ -40,7 +40,7 @@ const IMAGE_SIZES = {
 /**
  * Resizing an image and store image resizing in the new path location
  *
- * @author  Cesar A. Herrera de la T.
+ * @author  Montserrat Delgado Alvarez
  * @version 0.10.0
  * @since   0.10.0
  *
@@ -114,7 +114,7 @@ async function rateUser(body, transacting = undefined) {
  * Stores an image in the file system before call function for resizing a original image
  * and saves the full path in the database's product register by the given ID.
  *
- * @author  Cesar Augusto Herrera de la Torre.
+ * @author  Montserrat Delgado Alvarez
  * @version 0.10.0
  * @since   0.10.0
  *
@@ -193,7 +193,7 @@ async function verifyPassword(userPassoword, dbPassword) {
 /**
  * Inserts a new Membership register into the database.
  *
- * @author  Cesar A. Herrera de la T.
+ * @author  Montserrat Delgado Alvarez
  * @version 0.10.0
  * @since   0.10.0
  * @param {{
@@ -281,7 +281,7 @@ async function register(body, transacting = undefined) {
 /**
  * Return filePath in the correct format
  *
- * @author  Cesar A. Herrera de la T.
+ * @author  Montserrat Delgado Alvarez
  * @version 0.10.0
  * @since   0.10.0
  *
@@ -301,7 +301,7 @@ async function parseImagePath(filePath, userId, extencionImage, size) {
 /**
  * Gets from the database a price list register according to the given ID.
  *
- * @author  Cesar A. Herrera de la T.
+ * @author  Montserrat Delgado Alvarez
  * @version 0.10.0
  * @since   0.10.0
  *
@@ -347,7 +347,7 @@ async function getImageUser(body) {
  * Updates a specific User register which already
  * exists into the database by the given ID.
  *
- * @author  Cesar A. Herrera de la T.
+ * @author  Montserrat Delgado Alvarez
  * @version 0.10.0
  * @since   0.10.0
  *
@@ -427,7 +427,7 @@ async function update(body, transacting = undefined) {
  * Updates a specific User register which already
  * exists into the database by the given ID.
  *
- * @author  Cesar A. Herrera de la T.
+ * @author  Montserrat Delgado Alvarez
  * @version 0.10.0
  * @since   0.10.0
  *

@@ -17,7 +17,7 @@ const IMAGE_SIZES = [ "xs", "sm", "md", "lg"];
 /**
  * Inserts a new customer register into the database.
  *
- * @author  Cesar A. Herrera de la T.
+ * @author  Montserrat Delgado Alvarez
  * @version 0.10.0
  * @since   0.10.0
  * @param {{
@@ -74,7 +74,7 @@ async function create(body, transacting = undefined) {
 /**
  * Returns a list of customers with pagination information from the database.
  *
- * @author  Cesar A. Herrera de la T.
+ * @author  Montserrat Delgado Alvarez
  * @version 0.10.0
  * @since   0.10.0
  *
@@ -204,7 +204,7 @@ async function getPage(query) {
 /**
  * Gets from the database a customer register according to the given ID.
  *
- * @author  Cesar A. Herrera de la T.
+ * @author  Montserrat Delgado Alvarez
  * @version 0.10.0
  * @since   0.10.0
  *
@@ -322,7 +322,7 @@ const getCustomer = async (id) => {
  * Updates a specific Provider register which already
  * exists into the database by the given ID.
  *
- * @author  Cesar A. Herrera de la T.
+ * @author  Montserrat Delgado Alvarez
  * @version 0.10.0
  * @since   0.10.0
  *

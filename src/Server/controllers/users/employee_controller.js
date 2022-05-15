@@ -99,7 +99,7 @@ function updateProvidersLinkToEmployee(employeeId, providerIds, transacting = nu
 /**
  * Inserts a new employee register into the database.
  *
- * @author  Cesar A. Herrera de la T.
+ * @author  Montserrat Delgado Alvarez
  * @version 0.10.0
  * @since   0.10.0
  * @param {{
@@ -140,7 +140,7 @@ async function create(body, transacting = undefined) {
  * Updates a specific Employee register which already
  * exists into the database by the given ID.
  *
- * @author  Cesar A. Herrera de la T.
+ * @author  Montserrat Delgado Alvarez
  * @version 0.10.0
  * @since   0.10.0
  *
@@ -191,7 +191,7 @@ async function update(body, transacting = undefined) {
 /**
  * Returns a list of employees with pagination information from the database.
  *
- * @author  Cesar A. Herrera de la T.
+ * @author  Montserrat Delgado Alvarez
  * @version 0.10.0
  * @since   0.10.0
  *
@@ -327,7 +327,7 @@ async function getPage(query) {
 /**
  * Gets from the database a employee register according to the given ID.
  *
- * @author  Cesar A. Herrera de la T.
+ * @author  Montserrat Delgado Alvarez
  * @version 0.10.0
  * @since   0.10.0
  *

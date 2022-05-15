@@ -9,7 +9,7 @@ import SubscriptionModel from "~/Server/database/models/info/subscription";
 /**
  * Returns a list of subscriptions with pagination information from the database.
  *
- * @author  Cesar A. Herrera de la T.
+ * @author  Montserrat Delgado Alvarez
  * @version 0.10.0
  * @since   0.10.0
  *

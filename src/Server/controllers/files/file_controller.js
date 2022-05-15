@@ -31,7 +31,7 @@ const getFile = async (fileId) => {
 /**
  * Gets from the database a price list register according to the given ID.
  *
- * @author  Cesar A. Herrera de la T.
+ * @author  Montserrat Delgado Alvarez
  * @version 0.10.0
  * @since   0.10.0
  *

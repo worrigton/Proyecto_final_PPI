@@ -33,7 +33,7 @@ const IMAGE_SIZES = {
 /**
  * Resizing an image and store image resizing in the new path location
  *
- * @author  Cesar A. Herrera de la T.
+ * @author  Montserrat Delgado Alvarez
  * @version 0.10.0
  * @since   0.10.0
  *
@@ -67,7 +67,7 @@ const resizeImage = async (fileName, inputPath, outputPath, sizeValue) => {
  * Stores an image in the file system before call function for resizing a original image
  * and saves the full path in the database's product register by the given ID.
  *
- * @author  Cesar Augusto Herrera de la Torre.
+ * @author  Montserrat Delgado Alvarez
  * @version 0.10.0
  * @since   0.10.0
  *
@@ -194,7 +194,7 @@ function linkFeatureToProduct(productChangeHistoryId, features, transacting = nu
 /**
  * Inserts a new product register into the database or register a new change history.
  *
- * @author  Cesar A. Herrera de la T.
+ * @author  Montserrat Delgado Alvarez
  * @version 0.10.0
  * @since   0.10.0
  * @param {{
@@ -272,7 +272,7 @@ const newProductRequest = async (body, transacting = undefined) => {
 /**
  * Returns a list of product change history with pagination information from the database.
  *
- * @author  Cesar A. Herrera de la T.
+ * @author  Montserrat Delgado Alvarez
  * @version 0.10.0
  * @since   0.10.0
  *
@@ -411,7 +411,7 @@ const getPage = async (query) => {
 /**
  * Gets from the database a product changr history register according to the given ID.
  *
- * @author  Cesar A. Herrera de la T.
+ * @author  Montserrat Delgado Alvarez
  * @version 0.10.0
  * @since   0.10.0
  *
@@ -483,7 +483,7 @@ const getProductChangeHistory = async (id) => {
  * This function approve a request product changes and
  * modify the status of that record.
  *
- * @author  Cesar A. Herrera de la T.
+ * @author  Montserrat Delgado Alvarez
  * @version 0.10.0
  * @since   0.10.0
  *
@@ -570,7 +570,7 @@ const approveProductChangeHistory = async (body, transacting = undefined) => {
  * This function reject a request product changes and
  * modify the status of that record.
  *
- * @author  Cesar A. Herrera de la T.
+ * @author  Montserrat Delgado Alvarez
  * @version 0.10.0
  * @since   0.10.0
  *
